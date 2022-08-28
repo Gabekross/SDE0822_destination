@@ -17,7 +17,7 @@ body {
   border: 10px solid lightgreen;
   width: auto;
   height: 100%;
-  padding-top: 140px;
+  padding-top: 120px;
 
   text-align: center;
   vertical-align: middle;
@@ -34,10 +34,13 @@ body {
 }
 
 .red_box {
+    display: flex;
   border: 10px solid red;
   height: 98%;
   width: 700px;
-  margin-top: 5px;
+  align-items: top;
+      justify-content: center;
+      padding-top: 15px;
 }
 
 .blue_box {
@@ -64,4 +67,16 @@ body {
   height: 10%;
   margin: 2px 8px 8px 8px;
   text-align: left;
+}
+
+/* .form-group{
+
+width: 250px;
+align-items: center;
+
+} */
+
+.wrapper{
+    height: 100px;
+    position: relative;
 }
