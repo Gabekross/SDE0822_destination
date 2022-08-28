@@ -12,9 +12,11 @@ h1,
 p {
   text-align: center;
 }
-#purple_text {
+
+
+/* #purple_text {
   text-align: left;
-}
+} */
 
 .green_box {
   border: 10px solid green;
