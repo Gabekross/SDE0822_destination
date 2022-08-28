@@ -78,4 +78,5 @@ align-items: center;
 
 .wrapper{
     height: 100px;
+    position: relative;
 }
