@@ -8,23 +8,19 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-p {
-  text-align: center;
-}
-
-
-/* #purple_text {
-  text-align: left;
-} */
-
-.green_box {
-  border: 10px solid green;
+.greenbox_container {
   background-color: lightgray;
-  width: auto;
-  /* padding: 30px; */
   height: 30%;
-  margin: auto;
+  padding: 5px;
+}
+.green_box {
+  border: 10px solid lightgreen;
+  width: auto;
+  height: 100%;
+  padding-top: 140px;
+
+  text-align: center;
+  vertical-align: middle;
 }
 
 .flex_container {
@@ -32,19 +28,16 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 100px;
-  /* border: 10px solid black; */
-  height: 90%;
+  gap: 200px;
+  height: 70%;
   width: auto;
 }
 
 .red_box {
   border: 10px solid red;
-
-  height: 90%;
-
+  height: 98%;
   width: 700px;
+  margin-top: 5px;
 }
 
 .blue_box {
@@ -53,25 +46,22 @@ p {
   border: 10px solid blue;
   width: auto;
   width: 700px;
-  height: 90%;
-  /* padding: 350px;
- margin: 3px; */
+  height: 98%;
+  margin-top: 5px;
 }
 
 .yellow_box {
   border: 10px solid yellow;
-  padding-top: 10px;
   height: 86%;
   margin: 8px;
 }
 
 .purple_box {
-  padding: 15px;
-  border: 10px solid purple;
+  padding-left: 30px;
+  padding-top: 10px;
+
+  border: 10px solid rgb(221, 83, 240);
   height: 10%;
   margin: 2px 8px 8px 8px;
+  text-align: left;
 }
-
-/* .disp {
-  display: inline;
-} */
